@@ -53,3 +53,53 @@ footer {
   padding: 0 100px;
   color: #f9faf8;
 }
+
+.hero {
+  height: 460px;
+  /* background-color: #1f2037; */
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.main-content {
+  padding: 125px 0;
+}
+
+.secondary-text {
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  padding: 10px 0;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 5px 20px;
+  border: none;
+}
+
+.secondary-text,
+.main-text,
+#main-signup {
+  position: relative;
+  bottom: 65px;
+}
+
+img.banner-img {
+  float: right;
+  margin-right: 100px;
+  position: relative;
+  bottom: 260px;
+  background-color: gray;
+  height: 220px;
+  width: 500px;
+}
