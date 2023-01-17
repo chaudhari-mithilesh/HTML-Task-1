@@ -103,3 +103,81 @@ img.banner-img {
   height: 220px;
   width: 500px;
 }
+
+/* Middle section */
+
+.info {
+  display: flex;
+  align-content: center;
+  /* width: 100%; */
+  height: 250px;
+  width: 100%;
+  /* border: 10px solid gray; */
+  /* position: relative; */
+  /* top: 0; */
+  /* margin: auto; */
+}
+
+.info h1 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  position: relative;
+  left: 670px;
+  bottom: 120px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+  /* right: 230px; */
+  left: 140px;
+  bottom: 120px;
+  /* padding: 0 30px; */
+}
+
+.images img {
+  padding: 0 30px;
+  margin: 0 30px;
+  border: 5px solid #1b9bff;
+  /* background: red; */
+  /* border-color: #1b9bff; */
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.image-subtext {
+  position: absolute;
+  /* top: 180px;
+  right: 100px; */
+}
+
+#p1 {
+  top: 180px;
+  left: 28px;
+  width: 100px;
+  text-align: center;
+}
+
+#p2 {
+  top: 180px;
+  left: 188px;
+  width: 100px;
+  text-align: center;
+}
+
+#p3 {
+  top: 180px;
+  left: 348px;
+  width: 100px;
+  text-align: center;
+}
+
+#p4 {
+  top: 180px;
+  left: 508px;
+  width: 100px;
+  text-align: center;
+}
